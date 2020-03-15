@@ -1,5 +1,4 @@
 /* eslint-disable import/no-extraneous-dependencies */
-
 import { app, protocol, BrowserWindow } from 'electron';
 import {
   createProtocol,
