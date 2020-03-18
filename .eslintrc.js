@@ -15,5 +15,8 @@ module.exports = {
     'max-len': ['error', { "code": 180 }],
     'no-multi-assign': 'off',
     'no-console': 'off',
+    'no-bitwise': 'off',
+    'no-case-declarations': 'off',
+    'no-underscore-dangle': 'off',
   },
 };

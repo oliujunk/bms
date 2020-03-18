@@ -1,6 +1,9 @@
 import moment from 'moment';
 
 class Message {
+  // 标识
+  code;
+
   // 收发标志
   flag;
 
@@ -21,6 +24,7 @@ class Message {
 
   constructor(code) {
     this.time = moment().format('YYYY-MM-DD HH:mm:ss.SSS');
+    this.code = code.code;
     this.id = code.id;
     this.dataLength = code.dataLength;
   }

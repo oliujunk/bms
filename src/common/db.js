@@ -12,6 +12,10 @@ const db = {
     filename: path.join(remote.app.getPath('userData'), 'db/user.db'),
     autoload: true,
   }),
+  program: new Datastore({
+    filename: path.join(remote.app.getPath('userData'), 'db/program.db'),
+    autoload: true,
+  }),
 };
 
 export default db;

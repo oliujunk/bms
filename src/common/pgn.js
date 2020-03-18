@@ -162,6 +162,20 @@ const PGN = {
     interval: 250,
     dataLength: 4,
   },
+
+  // 多包报文
+  TPCM: {
+    code: 0xEC,
+    id: 0x18EC56F4,
+    description: '多包报文 连接管理',
+    dataLength: 8,
+  },
+  TPDP: {
+    code: 0xEB,
+    id: 0x18EB56F4,
+    description: '多包报文 数据传输',
+    dataLength: 8,
+  },
 };
 
 export default PGN;
